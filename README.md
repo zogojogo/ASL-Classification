@@ -1,2 +1,4 @@
-# ASL-Classification
-Classify American Sign Language with Deep Learning Methods
+# ASL Classification with Deep Learning
+Classify American Sign Language Alphabets with Deep Learning Methods
+
+## Installation Guide
