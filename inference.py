@@ -1,11 +1,14 @@
 from PIL import Image
-import torch, json, sys
+import torch, json, sys, argparse
 from torchvision import transforms
 import numpy as np
 import matplotlib.pyplot as plt
 
+parser = argparse.ArgumentParser()
+parser.add_argument("-p", "--path", help="Image path input")
+args = parser.parse_args()
 #Image Acquisition
-img_path = sys.argv[1]
+img_path = args.path
 image = Image.open(img_path).convert('RGB')
 
 #Initiate Labels
