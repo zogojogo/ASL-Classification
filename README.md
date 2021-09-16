@@ -33,6 +33,6 @@ To use ```inference2.py```, the model is use ```.onnx``` format. Here's how to p
 ## Model Performance
 This is how the model performs in their own test data.
 
-[Image](https://github.com/zogojogo/ASL-Classification/blob/main/Hasil%20All.png)
+[Image]('Hasil All.png')
 
 But my model is not quite good when it comes to another data source. (even from my own picture in [this](https://github.com/zogojogo/ASL-Classification/tree/main/Self%20Test) folder), I also try from this [kaggle](https://www.kaggle.com/danrasband/asl-alphabet-test) data to test my model. And here's how the model performs in the danrasband's ASL data test.
