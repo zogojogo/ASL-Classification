@@ -31,8 +31,17 @@ To use ```inference2.py```, the model is use ```.onnx``` format. Here's how to p
 ```python inference2.py -m <onnx_model> -p <your_image_path>```
 
 ## Model Performance
-This is how the model performs in their own test data.
+### Training
+This is how the model performs in the training
+[Training1](Train-1.png)
 
+[Training2](Train-2.png)
+### Testing
+This is how the model performs in their own test data.
 [Image](Hasil All.png)
 
-But my model is not quite good when it comes to another data source. (even from my own picture in [this](https://github.com/zogojogo/ASL-Classification/tree/main/Self%20Test) folder), I also try from this [kaggle](https://www.kaggle.com/danrasband/asl-alphabet-test) data to test my model. And here's how the model performs in the danrasband's ASL data test.
+### Benchmark
+This is when the problem come. My model is not quite good when it comes to another data source. (even from my own picture in [this](https://github.com/zogojogo/ASL-Classification/tree/main/Self%20Test) folder), I also try from this [kaggle](https://www.kaggle.com/danrasband/asl-alphabet-test) data to test my model. And here's how the model performs in the danrasband's ASL data test.
+[Test1](Test-1.png)
+
+[Test2](Test-2.png)
